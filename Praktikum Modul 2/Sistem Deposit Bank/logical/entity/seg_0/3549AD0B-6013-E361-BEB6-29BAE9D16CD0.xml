@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3549AD0B-6013-E361-BEB6-29BAE9D16CD0" name="Akun_Deposit_Nasabah">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 00:48:46 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Deposit" id="029367F5-BDD8-81EE-7033-9BC125FF1FCA">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 00:49:10 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No_Rekening" id="A008A986-9F66-544D-E41D-D87665A4A621">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 00:49:40 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tgl_Pembukaan" id="1F9DD789-7842-423C-8106-BD71E8B13AD1">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 00:50:03 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jangka_Waktu" id="FE0B625B-A4DF-40F6-7D19-9D94512DA8F7">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 00:58:39 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tgl_Jatuh_Tempo" id="A75A35A4-BA33-1D9B-1665-E661EB7929F3">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:02:49 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Jumlah_Deposit" id="267493E3-7904-D24F-ED00-BE3AAF7AA408">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:03:53 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Suku_Bunga" id="98331ED5-5F72-673A-09A2-B79BECA0228A">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:04:26 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status_Akun" id="1CF84382-DC8E-AD07-2CC4-7990910BB469">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:04:50 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Cabang" id="A3D6B16B-76F6-12FD-8C6D-1FD8121B7FA3">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:16:51 UTC</createdTime>
+<generatorID>5A971D57-B0E8-9D48-FE2A-A70596998BDA</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<referedAttribute>1ABFAAF9-107B-91CF-0F11-1B1BDF6591FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="18E86D35-9332-C283-D940-7C6431F3C811" name="Akun_Deposit_Nasabah PK">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:03:51 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>029367F5-BDD8-81EE-7033-9BC125FF1FCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56641626-39FB-65A8-81C8-A8578A487CC6" name="Nasabah_Akun">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<ordsAlias>relation_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Data_Nasabah_ID_Nasabah" id="9185B12D-B5E1-664B-3F8A-EB3C144AC9EB">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FBCA4BE-DBB6-080D-C743-FFBB11F64894" referredColumn="91628137-BE20-4721-7968-4C667084BBCA"/>
+</associations>
+</Column>
+<Column name="Akun_Deposit_Nasabah_ID_Deposit" id="5DB35010-9124-4EB4-6181-1FBD9DD1E944">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2676B406-695F-5A6D-9C66-AA2A0CE39805" referredColumn="C0D3F99F-5085-082B-3DB9-49BD56F4FF77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9B1F555A-D0D7-803B-6977-24F54275F58A" name="Relation_2_PK">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9185B12D-B5E1-664B-3F8A-EB3C144AC9EB"/>
+<colUsage columnID="5DB35010-9124-4EB4-6181-1FBD9DD1E944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9EEEDA80-134D-853F-8987-1EAE296DDBA8" name="Relation_2_Data_Nasabah_FK">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>E055883F-9834-421D-8E73-62787C9F6B73</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9185B12D-B5E1-664B-3F8A-EB3C144AC9EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA3CD899-DF4E-E344-2D72-DE00C5730DE4" name="Relation_2_Akun_Deposit_Nasabah_FK">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>E055883F-9834-421D-8E73-62787C9F6B73</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DB35010-9124-4EB4-6181-1FBD9DD1E944"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
