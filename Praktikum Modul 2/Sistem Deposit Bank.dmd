@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Sistem Deposit Bank" id="508EC9A6-3767-EA85-BBF5-364E89F78D9E" version="3.5">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 00:42:37 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>508EC9A6-3767-EA85-BBF5-364E89F78D9E</designId>
+</OSDM_Design>

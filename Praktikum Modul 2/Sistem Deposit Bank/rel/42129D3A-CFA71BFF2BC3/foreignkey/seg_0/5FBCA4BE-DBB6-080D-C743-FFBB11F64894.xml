@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5FBCA4BE-DBB6-080D-C743-FFBB11F64894" containerWithKeyObject="56641626-39FB-65A8-81C8-A8578A487CC6" localFKIndex="9EEEDA80-134D-853F-8987-1EAE296DDBA8" name="Relation_2_Data_Nasabah_FK">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>E055883F-9834-421D-8E73-62787C9F6B73</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<referredTableLongName>Data_Nasabah</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C4FD74A6-6A2D-D530-6539-60EC704A4D3B</referredTableID>
+<keyObject>430223BF-D070-660A-EA6E-A9C79D69673C</keyObject>
+<referredKeyID>430223BF-D070-660A-EA6E-A9C79D69673C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Nasabah</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

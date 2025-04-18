@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="5A971D57-B0E8-9D48-FE2A-A70596998BDA">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:16:51 UTC</createdTime>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<engineerTo>
+<item key="42129D3A-8EF2-C29F-AFA2-CFA71BFF2BC3" value="true"/>
+</engineerTo>
+<sourcePk>EA752E77-BCBA-1A11-C553-2D4B0EEE10B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7589739A-4153-CED8-B53C-69A84D925EE2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3549AD0B-6013-E361-BEB6-29BAE9D16CD0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60BF2A28-722B-0DA2-8DEB-0DE316194FF8" name="Data_Transaksi">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>1147407C-2AE8-CD4E-932E-837E1A759326</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Transaksi" id="9A7686D6-2999-97B5-7675-77E42799A5A3">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>EDD410FE-7756-8C11-5D8D-89E4E2219DFA</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tgl_Transaksi" id="9B86AFE9-6042-2E22-131B-B608C5369E34">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>15BA039B-422A-68AA-72B6-D86EE14AF16A</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jenis_Transaksi" id="7C582301-A2F4-9B48-BE73-3D9F680481AB">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>E3DA52BA-08DE-63E9-955C-B40A0BCA4B87</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jumlah_Transaksi" id="670355DA-1078-D90F-2D5A-D7C50388CD26">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>90B8D272-F08D-442B-E99A-3C52FF8B4B7A</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_Nasabah_ID_Nasabah" id="4036B7D7-859A-BFAF-27F1-952E61F031FC">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>1B885318-D827-D3EB-D3E9-F68AFEEFDDA9</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="198A7EDF-C7A8-76A0-DA5F-5FEAA93D13FD" referredColumn="91628137-BE20-4721-7968-4C667084BBCA"/>
+</associations>
+</Column>
+<Column name="Akun_Deposit_Nasabah_ID_Deposit" id="DCF03193-4AF3-FDE5-2A61-5702C40EF164">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>36F71866-C070-AD74-9824-DC0C8A637AAF</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FE1F813-1C78-1E6C-E2FF-9B3FA5C2D993" referredColumn="C0D3F99F-5085-082B-3DB9-49BD56F4FF77"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="578935DD-D8EE-9F0A-B9A7-55491433F0E3" name="Data_Transaksi_PK">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>756EA873-B350-C403-2986-F3F98E5DE90F</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A7686D6-2999-97B5-7675-77E42799A5A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45FDACB3-C2D8-5D34-B312-5E1C430EA9CC" name="Data_Transaksi_Data_Nasabah_FK">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>E30ACFCF-2C19-3E72-65F3-26281EAE47D8</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4036B7D7-859A-BFAF-27F1-952E61F031FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7A01EE9-03A8-927E-BA38-59BF1CEBD687" name="Data_Transaksi_Akun_Deposit_Nasabah_FK">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>6490B26D-0D98-4EF5-ABBB-0262750D2920</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCF03193-4AF3-FDE5-2A61-5702C40EF164"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

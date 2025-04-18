@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="567B19F6-ECD4-CA59-D3DA-A5FF083F320C" name="Cabang_Bank">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>7589739A-4153-CED8-B53C-69A84D925EE2</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Cabang" id="6A2DD78D-37DD-F2BB-26CD-8C52DC71D9AF">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>1ABFAAF9-107B-91CF-0F11-1B1BDF6591FC</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Cabang" id="9B6EF084-AF69-50A3-D781-4B395CB1C74C">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>B93519E0-ED1F-134B-FDEB-E1E03F5A63C9</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat_Cabang" id="A73E512B-C624-1A84-C13F-B9746D9448F5">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>EEEFE2BA-F741-CACB-7382-51550C352CF7</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kode_Pos_Cabang" id="508D136E-AD9D-37AA-6DF2-D05E9D1BBA45">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>C3DA6ACE-14E8-F2EB-B2D2-3E4698080F18</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_Telepon" id="AEC95463-E9B5-ED8B-8560-1B36FA1E947D">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>534DEE5C-ECFB-47CA-76D5-3B95BC9EC3C6</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="9053AEAE-31C2-89F4-3CD1-37F98F59116B">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>F56ACDB8-F91B-F374-F654-46C8FEEEFB4E</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="44FA9419-F20A-3687-EB90-4D05A0A0F1F7" name="Cabang_Bank_PK">
+<createdBy>advan</createdBy>
+<createdTime>2025-04-16 01:20:03 UTC</createdTime>
+<generatorID>EA752E77-BCBA-1A11-C553-2D4B0EEE10B8</generatorID>
+<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A2DD78D-37DD-F2BB-26CD-8C52DC71D9AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
