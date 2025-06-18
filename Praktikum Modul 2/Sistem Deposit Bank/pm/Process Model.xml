@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="441E69B2-8992-8821-CD82-74D9F6859AC8">
-<createdBy>advan</createdBy>
-<createdTime>2025-04-16 00:42:37 UTC</createdTime>
-<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>

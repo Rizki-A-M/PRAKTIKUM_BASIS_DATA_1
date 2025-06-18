@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B090AD1A-90B8-8FB0-9CDB-C2D7829B8AF7" mainViewID="9C174605-9EEC-7503-4F1D-AC5A15C55A6C">
-<createdBy>advan</createdBy>
-<createdTime>2025-04-16 00:42:37 UTC</createdTime>
-<ownerDesignName>Sistem Deposit Bank</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
